@@ -3,9 +3,11 @@
 
 /* 
  * Some terminal color variables
- * Will make the UI a tiny little less boring
+ * Will make the UI a little less boring
  */
 #define RED "\033[31m"
 #define NORMAL "\033[m"
 
 #endif
+
+

@@ -42,11 +42,11 @@ dictionary_item_t* parse(const char* filename)
 }
 
 /*
- * Uses a while loop to traverse the linked list and passes each item into a handler call
+ * Uses a while loop to traverse the linked list and pass each item into a handler call
  */
 void traverse_dictionary(dictionary_item_t* root, dictionary_item_handler_t handler)
 {
-    // Temporary and auxilarry pointer
+    // Temporary and auxiliary pointer
     dictionary_item_t* current_item = root;
     
     while (current_item != NULL)
